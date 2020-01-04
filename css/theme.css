@@ -5,6 +5,10 @@ main {
 	color: #545454;
 }
 
+main .intro{
+	color: #FFFFFF;
+}
+
 .icons-social a {
 	color: #0277BD;
 }
