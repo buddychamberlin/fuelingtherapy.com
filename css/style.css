@@ -34,17 +34,21 @@ html {
 }
 
 .icons-social i {
-	font-size: 3em;
+	font-size: 2em;
 }
 
 /* Custom Styles */
+
+p {
+	padding: 0 2em;
+}
 
 main {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	justify-content: center;
-	padding: 0 30px;
+	justify-content: top;
+	padding: 80px 20px;
 	text-align: center;
 }
 
@@ -57,12 +61,13 @@ main > .intro {
 main > .tagline {
 	font-size: 1.25rem;
 	margin: 1.5rem 0;
-	font-weight: 100;
+	font-weight: 900;
   padding: 0 1em;
+	font-style: italic;
 }
 
 .icons-social i {
-	padding: 10px;
+	padding: 30px 5px;
 }
 
 .devto {
